@@ -8,6 +8,8 @@ Oversampling techniques duplicate or mimic data points from the minority class u
 Undersampling techniques drop points from the majority class until it has equal points to the minority class in a training dataset. Unlike oversampling, undersampling only uses real data, but the tradeoff is that real majority class data is lost. Two methods of undersampling are random undersampling and cluster centroid undersampling.
 #### Combination Sampling
 SMOTEENN is a sampling method that utilizes aspects of both over and undersampling. SOMTEENN oversamples the miniority class with SMOTE and then cleans the resulting data with undersampling to drop some of the dataset's outliers, resulting in more cleanly separated classes in a dataset.
+### Ensemble Learning
+Ensemble learning is the process of using "multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone".<sup>1</sup>
 ### Purpose
 The purpose of this project is to compare resampling methods and ensemble learning builds. Oversampling methods RandomOverSampler and SMOTE, undersampling method ClusterCentroids, and a combination sampling method SMOTEENN are compared. Ensemble learners BalancedRandomForestClassifier and EasyEnsembleClassifier are compared.
 ## Results
