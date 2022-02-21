@@ -14,3 +14,5 @@ Ensemble learning is the process of using "multiple learning algorithms to obtai
 The purpose of this project is to compare resampling methods and ensemble learning builds. Oversampling methods RandomOverSampler and SMOTE, undersampling method ClusterCentroids, and a combination sampling method SMOTEENN are compared. Ensemble learners BalancedRandomForestClassifier and EasyEnsembleClassifier are compared.
 ## Results
 ## Summary
+## Citations
+1. https://en.wikipedia.org/wiki/Ensemble_learning
