@@ -13,7 +13,7 @@ Ensemble learning is the process of using "multiple learning algorithms to obtai
 #### Balanced Random Forest Classifier
 Random forests are one kind of of bagging ensemble learning build. A random forest is a "model made up of a large number of small decision trees, called estimators, which each produce their own predictions", where the combination of these predictions ideally results in the algorithm's more accurate prediction.<sup>[2]</sup> A balanced random forest randomly undersamples each decision tree sample to balance it.<sup>[3]</sup>
 #### Easy Ensemble Classifier
-AdaBoost learners are a kind of boosting ensemble learning build where in which each successive model instance emphasizes training instances in which previous models mis-classified.<sup><[1]</sup] Easy Ensemble Classifier is an AdaBoost learner balanced via random under-sampling.<sup>[4]</sup>
+AdaBoost learners are a kind of boosting ensemble learning build where in which each successive model instance emphasizes training instances in which previous models mis-classified.<sup><[1]</sup> Easy Ensemble Classifier is an AdaBoost learner balanced via random under-sampling.<sup>[4]</sup>
 ### Purpose
 The purpose of this project is to compare resampling methods and ensemble learning builds. Oversampling methods RandomOverSampler and SMOTE, undersampling method ClusterCentroids, and a combination sampling method SMOTEENN are compared. Ensemble learners BalancedRandomForestClassifier and EasyEnsembleClassifier are compared.
 ## Results
