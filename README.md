@@ -11,7 +11,9 @@ SMOTEENN is a sampling method that utilizes aspects of both over and undersampli
 ### Ensemble Learning
 Ensemble learning is the process of using "multiple learning algorithms to obtain better predictive performance than could be obtained from any of the constituent learning algorithms alone".<sup>[1]</sup> Ideally, these ensemble learning builds can improve the accuracy and robustness of the model, decrease its variance, resulting in increased overall performance.
 #### Balanced Random Forest Classifier
-Random forests are one kind of of ensemble learning build. A random forest is a "model made up of a large number of small decision trees, called estimators, which each produce their own predictions", where the combination of these predictions ideally results in the algorithm's more accurate prediction.<sup>[2]</sup> A balanced random forest randomly undersamples each decision tree sample to balance it.<sup>[3]</sup>
+Random forests are one kind of of bagging ensemble learning build. A random forest is a "model made up of a large number of small decision trees, called estimators, which each produce their own predictions", where the combination of these predictions ideally results in the algorithm's more accurate prediction.<sup>[2]</sup> A balanced random forest randomly undersamples each decision tree sample to balance it.<sup>[3]</sup>
+#### Easy Ensemble Classifier
+AdaBoost learners are a kind of boosting ensemble learning build where in which each successive model instance emphasizes training instances in which previous models mis-classified.<sup><[1]</sup] Easy Ensemble Classifier is an AdaBoost learner balanced via random under-sampling.<sup>[4]</sup>
 ### Purpose
 The purpose of this project is to compare resampling methods and ensemble learning builds. Oversampling methods RandomOverSampler and SMOTE, undersampling method ClusterCentroids, and a combination sampling method SMOTEENN are compared. Ensemble learners BalancedRandomForestClassifier and EasyEnsembleClassifier are compared.
 ## Results
@@ -20,3 +22,4 @@ The purpose of this project is to compare resampling methods and ensemble learni
 1. https://en.wikipedia.org/wiki/Ensemble_learning
 2. https://deepai.org/machine-learning-glossary-and-terms/random-forest
 3. https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html
+4. https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.EasyEnsembleClassifier.html
