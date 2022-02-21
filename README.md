@@ -54,6 +54,9 @@ The purpose of this project is to compare resampling methods and ensemble learni
 ![](images/classification-report_easy-ensemble.png)
 
 ## Summary
+Considering the nature of making loans, it is best that our algorithm catches the most high risk cases available. For this, the Easy Ensemble AdaBoost algorithm produces the best results. Immediately, the accuracy score of 93.2% is a great improvement over the others. The high_risk precision 0.09 is low, suggesting a lot of the cases labeled high risk are false positives, but it is still the highest high_risk precision rating by nearly a magnitude. The high_risk recall 0.92 is the highest and informs us that the algorithm predicts most known high risk cases from the dataset as high risk. 
+  
+The high_risk f1 0.16 is higher than the others by about a magnitude, but still low on a scale of 0 to 1. While a low f1 score is ideal for our algorithm, the Ensemble Adaboost's larger f1 score is due to greater high_risk precision than the other tests, while it still maintains the greatest high_risk recall which is ideal.
 ## Citations
 1. https://en.wikipedia.org/wiki/Ensemble_learning
 2. https://deepai.org/machine-learning-glossary-and-terms/random-forest
