@@ -17,6 +17,42 @@ AdaBoost learners are a kind of boosting ensemble learning build where in which 
 ### Purpose
 The purpose of this project is to compare resampling methods and ensemble learning builds. Oversampling methods RandomOverSampler and SMOTE, undersampling method ClusterCentroids, and a combination sampling method SMOTEENN are compared. Ensemble learners BalancedRandomForestClassifier and EasyEnsembleClassifier are compared.
 ## Results
+### RandomOversampler Oversampling
+* Accuracy score = 64.6%
+* Classification report in figure 1 below
+
+![](images/classification-report_random-oversampler.png)
+
+### SMOTE Oversampling
+* Accuracy score = 65.9%
+* Classification report in figure 2 below
+  
+![](images/classification-report_SMOTE.png)
+
+### ClusterCentroids Undersampling
+* Accuracy score = 54.6%
+* Classification report in figure 3 below
+  
+![](images/classification-report_cluster-centroids.png)
+  
+### SMOTEENN Combination Sampling
+* Accuracy score = 66.6%
+* Classification report in figure 4 below
+  
+![](images/classification-report_SMOTEENN.png)
+
+###
+* Accuracy score = 78.9%
+* Classification report in figure 5 below
+  
+![](images/classification-report_balanced-random-forest.png)
+  
+### Easy Esnemble AdaBoost
+* Accuracy score = 93.2%
+* Classification report in figure 6 below
+  
+![](images/classification-report_easy-ensemble.png)
+
 ## Summary
 ## Citations
 1. https://en.wikipedia.org/wiki/Ensemble_learning
